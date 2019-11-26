@@ -27,8 +27,7 @@ jobs:
           webapp
        path: bin/Release/netcoreapp3.0/publish
        
-deploy:
-
+  deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
