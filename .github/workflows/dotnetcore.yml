@@ -41,4 +41,4 @@ deploy:
         with:
           app-name: actionsSampleApp
           package: webapp
-          publish-profile: ${{ secrets.dirtyWebappPublishProfile }}:  
+          publish-profile: ${{ secrets.dirtyWebappPublishProfile }}
